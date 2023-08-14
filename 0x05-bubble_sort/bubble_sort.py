@@ -19,3 +19,13 @@ def bubble_sort(list):
     return list
 
 print(bubble_sort([7,3, 5, 1, 9]))
+print(bubble_sort([12, 7, 18, 5, 11, 9, 6, 2, 3, 14]))
+print(bubble_sort([33, 25, 19, 29, 8, 36, 42, 17]))
+print(bubble_sort([64, 73, 55, 91, 88, 60, 82, 47]))
+print(bubble_sort([52, 15, 70, 39, 4, 63, 86, 28]))
+print(bubble_sort([44, 77, 69, 31, 23, 57, 95, 83]))
+print(bubble_sort(['banana', 'cherry', 'apple', 'kiwi', 'grape', 'orange', 'pear', 'watermelon']))
+print(bubble_sort(['strawberry', 'pineapple', 'orange', 'tangerine', 'watermelon', 'quince', 'raspberry']))
+print(bubble_sort(['cranberry', 'apricot', 'grapefruit', 'blueberry', 'dragonfruit', 'fig']))
+print(bubble_sort(['honeydew', 'cherry', 'date', 'kiwi', 'elderberry', 'grape', 'banana']))
+
