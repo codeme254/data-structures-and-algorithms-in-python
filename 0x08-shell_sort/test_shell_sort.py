@@ -63,6 +63,16 @@ class TestShellSort(unittest.TestCase):
         shell_sort(list)
         self.assertEqual(list, [23, 31, 44, 57, 69, 77, 83, 95])
     
+    def test_random_list_with_negative_values(self):
+        list = [44, 77, 69, 31, 23, 57, -95, -83]
+        shell_sort(list)
+        self.assertEqual(list, [-95, -83, 23, 31, 44, 57, 69, 77])
+    
+    def test_random_list_with_negative_values_2(self):
+        list = [-5, -4, -1, -2, 0, -4]
+        shell_sort(list)
+        self.assertEqual(list, [-5, -4, -4, -2, -1, 0])
+    
     def test_random_list_of_string_1(self):
         list = ['banana', 'cherry', 'apple', 'kiwi', 'grape', 'orange', 'pear', 'watermelon']
         shell_sort(list)
