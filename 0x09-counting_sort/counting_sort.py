@@ -19,7 +19,6 @@ def counting_sort(list: List[int]):
     frequency_array = [0] * (largest_value + 1)
     for i in range(0, len(list)):
         frequency_array[list[i]] += 1
-    
     sorted_list = []
     for i in range(0, len(frequency_array)):
         if frequency_array[i] == 0:
