@@ -13,12 +13,12 @@ def bubble_sort(list):
     list: the list of elements that should be sorted
     """
     for i in range(len(list)-1, -1, -1):
-        for j in range(0, i - 1):
+        for j in range(0, i):
             if list[j] > list[j+1]:
                 swap(list, j, j+1)
     return list
 
-print(bubble_sort([7,3, 5, 1, 9]))
+print(bubble_sort([5, 4, 3, 2, 1]))
 print(bubble_sort([12, 7, 18, 5, 11, 9, 6, 2, 3, 14]))
 print(bubble_sort([33, 25, 19, 29, 8, 36, 42, 17]))
 print(bubble_sort([64, 73, 55, 91, 88, 60, 82, 47]))
