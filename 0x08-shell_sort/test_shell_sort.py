@@ -1,7 +1,7 @@
 import unittest
 from shell_sort import shell_sort
 
-class TestMySort(unittest.TestCase):
+class TestShellSort(unittest.TestCase):
 
     def test_empty_list(self):
         arr = []
